@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Конвертер</string>
+    <string name="information">Конвертер единиц информации</string>
+    <string name="login">Введите логин</string>
+    <string name="password">Введите пароль</string>
+    <string name="start">Начать</string>
+
+    <string name="selection">Выбор единиц информации</string>
+    <string name="input">Введите число</string>
+    <string name="from">Из</string>
+    <string name="in">В</string>
+    <string name="rez">Результат</string>
+    <string name="v">Вычислить</string>
+
+    <string name="end">Введенное число</string>
+    <string name="regist_text">Регистрация</string>
+
+</resources>

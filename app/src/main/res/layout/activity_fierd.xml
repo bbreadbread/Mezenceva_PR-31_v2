@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fierd_activity"
+    android:background="@color/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="top"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="@string/information"
+            android:textColor="@color/white"
+            android:textSize="32dp"
+            android:textStyle="bold"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="140dp"/>
+
+        <TextView
+            android:id="@+id/outputValues"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/radius"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:hint="/?" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/end"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/outputFrom"
+                android:layout_width="160dp"
+                android:layout_height="48dp"
+                android:layout_margin="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/radius"
+                android:hint="/?"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                tools:ignore="SpUsage,TextSizeCheck" />
+
+            <TextView
+                android:id="@+id/outputIn"
+                android:layout_width="160dp"
+                android:layout_height="48dp"
+                android:layout_margin="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/radius"
+                android:autofillHints=""
+                android:hint="/?"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                tools:ignore="SpUsage,TextSizeCheck" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/outputResult"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/radius"
+            android:hint="@string/rez"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:paddingLeft="15dp" />
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:padding="12dp"
+            android:textColor="@color/white"
+            android:background="@drawable/radius30"
+            android:text="@string/regist_text"
+            android:layout_marginTop="165dp"
+            android:textSize="18dp"
+            android:onClick="comeback"
+            android:textAllCaps="false"
+            android:textStyle="bold"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
